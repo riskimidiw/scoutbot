@@ -1,0 +1,1 @@
+docker-compose exec scoutbot \sh -c "make migrate"
