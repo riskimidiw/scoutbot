@@ -2,6 +2,10 @@
 
 ## docker-compose
 
+- Update environtment variables in .env file
+	```
+	vim .env
+	```
 - Build Project
     ```
     docker-compose build
@@ -21,6 +25,10 @@
 
 ## manual
 
+- Update environtment variables in .env file
+	```
+	vim .env
+	```
 - Load Env Variable
     ```
     export $(cat .env)
@@ -31,5 +39,5 @@
     ```
 - Open this in your browser
     ```
-    localhost:8000
+    localhost
     ```

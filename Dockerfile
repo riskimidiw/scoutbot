@@ -1,6 +1,6 @@
 FROM php:7.4.1-apache
 
-COPY . /var/www/html/scout-bot/
+COPY . /var/www/html/scoutbot/
 
 COPY ./000-default.conf /etc/apache2/sites-available/
 
